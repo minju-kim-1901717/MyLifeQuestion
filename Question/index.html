@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ko" data-site="self-reflection-100">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="index, follow" />
+  <title>자기성찰 질문 100</title>
+  <meta name="description" content="나의 하루를 정리하며 하루에 하나씩의 질문에 답을 해봐요" />
+  <link rel="canonical" href="https://example.com/" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .badge { display:inline-block; border:1px solid rgba(0,0,0,.1); padding:.1rem .5rem; border-radius:.75rem; font-size:.75rem; color:#525252; background:#fafafa; margin-right:.5rem; }
+  </style>
+</head>
+<body class="bg-neutral-50 text-neutral-900">
+  <header class="max-w-4xl mx-auto px-6 pt-10 pb-4">
+    <h1 class="text-2xl md:text-3xl font-bold tracking-tight">자기성찰 질문 100</h1>
+    <p class="text-sm text-neutral-500 mt-1">나의 하루를 정리하며 하루에 하나씩의 질문에 답을 해봐요</p>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-6 pb-24">
+    <!-- Controls -->
+    <section class="mb-4 flex flex-col md:flex-row gap-3 md:items-center">
+      <div class="flex items-center gap-2">
+        <label for="filter-category" class="text-sm text-neutral-600">카테고리</label>
+        <select id="filter-category" class="px-3 py-2 rounded-xl border bg-white text-sm">
+          <option value="">전체</option>
+          <option value="self">#self</option>
+          <option value="emotions">#emotions</option>
+          <option value="relationships">#relationships</option>
+          <option value="career">#career</option>
+          <option value="health">#health</option>
+          <option value="habits">#habits</option>
+          <option value="growth">#growth</option>
+          <option value="values">#values</option>
+          <option value="past">#past</option>
+          <option value="future">#future</option>
+          <option value="daily">#daily</option>
+        </select>
+      </div>
+      <div class="flex items-center gap-2 md:ml-auto">
+        <label for="limit-select" class="text-sm text-neutral-600">행 수</label>
+        <select id="limit-select" class="px-3 py-2 rounded-xl border bg-white text-sm">
+          <option value="10">10줄 보기</option>
+          <option value="20">20줄 보기</option>
+          <option value="all">전체 보기</option>
+        </select>
+      </div>
+    </section>
+
+    <!-- Questions -->
+    <section id="questions" data-version="2.4" class="bg-white border rounded-2xl p-6 shadow-sm">
+      <ol id="question-list" class="list-decimal pl-10 space-y-1">
+        
+        <!-- self (1–10) -->
+        <li class="question-item py-1.5 border-b last:border-none" data-id="1" data-category="self"><span class="question-text">지금의 나는 어떤 사람으로 보이고 싶은가</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="2" data-category="self"><span class="question-text">오늘 나를 가장 자랑스럽게 만든 행동은 무엇이었나</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="3" data-category="self"><span class="question-text">나를 정의하는 핵심 키워드 세 가지는 무엇인가</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="4" data-category="self"><span class="question-text">최근에 내 가치관이 바뀐 지점은 어디인가</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="5" data-category="self"><span class="question-text">다른 사람이 나에게 가장 자주 하는 피드백은 무엇인가</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="6" data-category="self"><span class="question-text">내가 진짜로 잘하는 일과 그 근거는 무엇인가</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="7" data-category="self"><span class="question-text">내가 피하고 있는 일이 있다면 왜 피하고 있나</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="8" data-category="self"><span class="question-text">하루 1% 더 나아지기 위해 지금 당장 할 수 있는 한 가지는</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="9" data-category="self"><span class="question-text">나에게 ‘성공’은 어떤 상태를 의미하나</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="10" data-category="self"><span class="question-text">나의 약점을 보완하기 위해 선택할 수 있는 전략은 무엇인가</span></li>
+
+        <!-- emotions (11–20) -->
+        <li class="question-item py-1.5 border-b last:border-none" data-id="11" data-category="emotions"><span class="question-text">요즘 가장 자주 느끼는 감정은 무엇이며 그 촉발 요인은 무엇인가</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="12" data-category="emotions"><span class="question-text">감정이 지나간 뒤 남는 통찰은 무엇인가</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="13" data-category="emotions"><span class="question-text">스트레스를 다루는 나만의 안전한 루틴은 무엇인가</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="14" data-category="emotions"><span class="question-text">최근에 기쁨을 선명하게 느낀 순간은 언제였나</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="15" data-category="emotions"><span class="question-text">불안이 올라올 때 내 몸에서 먼저 나타나는 신호는 무엇인가</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="16" data-category="emotions"><span class="question-text">분노를 건강하게 표현하는 방법을 세 가지 적어본다면</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="17" data-category="emotions"><span class="question-text">감정을 무시했을 때와 인정했을 때 결과가 어떻게 달랐나</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="18" data-category="emotions"><span class="question-text">감사함을 느끼는 대상 다섯 가지를 지금 떠올리면</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="19" data-category="emotions"><span class="question-text">슬픔을 돌보는 데 도움이 된 말이나 문장은 무엇이었나</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="20" data-category="emotions"><span class="question-text">기분이 가라앉을 때 나를 회복시키는 소소한 행동은</span></li>
+
+        <!-- relationships (21–30) -->
+        <li class="question-item py-1.5 border-b last:border-none" data-id="21" data-category="relationships"><span class="question-text">내가 소중하게 여기는 관계의 공통된 특징은 무엇인가</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="22" data-category="relationships"><span class="question-text">최근에 누군가에게 고마움을 표현한 적이 있나, 어떻게 했나</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="23" data-category="relationships"><span class="question-text">경계를 설정해야 할 관계가 있다면, 첫 문장은 어떻게 시작할까</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="24" data-category="relationships"><span class="question-text">갈등 상황에서 내가 반복하는 패턴은 무엇인가</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="25" data-category="relationships"><span class="question-text">좋은 피드백을 주고받기 위한 나의 원칙은</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="26" data-category="relationships"><span class="question-text">도움을 요청하는 것을 방해하는 믿음이 있다면 무엇인가</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="27" data-category="relationships"><span class="question-text">가장 존경하는 사람의 어떤 점을 내 삶에 적용할 수 있을까</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="28" data-category="relationships"><span class="question-text">관계를 유지하기 위해 내가 꾸준히 할 수 있는 작은 행동은</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="29" data-category="relationships"><span class="question-text">지난 한 달 동안 의미 있었던 대화는 무엇이었나</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="30" data-category="relationships"><span class="question-text">내가 ‘아니오’라고 말해야 했던 순간은 언제였나</span></li>
+
+        <!-- career (31–40) -->
+        <li class="question-item py-1.5 border-b last:border-none" data-id="31" data-category="career"><span class="question-text">나의 일이 세상에 주는 가치는 무엇인가</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="32" data-category="career"><span class="question-text">이번 분기 최우선 목표 한 가지와 그 이유는</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="33" data-category="career"><span class="question-text">일에서 에너지를 가장 많이 빼앗는 요소는 무엇인가</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="34" data-category="career"><span class="question-text">내 커리어에서 레버리지(지렛대)가 되는 역량은 무엇인가</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="35" data-category="career"><span class="question-text">실패를 학습으로 전환했던 구체적 사례는</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="36" data-category="career"><span class="question-text">업무에서 ‘중요하지만 긴급하지 않은 일’을 어떻게 다루고 있나</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="37" data-category="career"><span class="question-text">내가 원하는 역할 모델의 하루는 어떻게 구성될까</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="38" data-category="career"><span class="question-text">최근에 만든 결정 중 근거가 가장 명확했던 것은 무엇인가</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="39" data-category="career"><span class="question-text">협업을 더 잘하기 위해 내가 바꿀 수 있는 습관은</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="40" data-category="career"><span class="question-text">다음 이직/전환을 위해 오늘 준비할 수 있는 최소 행동은</span></li>
+
+        <!-- health (41–50) -->
+        <li class="question-item py-1.5 border-b last:border-none" data-id="41" data-category="health"><span class="question-text">요즘 내 수면의 질을 떨어뜨리는 요인은 무엇인가</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="42" data-category="health"><span class="question-text">몸이 편안함을 느낄 때의 신호를 세 가지 적어보면</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="43" data-category="health"><span class="question-text">식습관에서 작은 개선을 시도할 수 있는 한 가지는</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="44" data-category="health"><span class="question-text">운동이 나의 감정과 집중력에 미치는 영향은</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="45" data-category="health"><span class="question-text">번아웃 신호를 감지했을 때 나를 위한 응급 처치는</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="46" data-category="health"><span class="question-text">디지털 디톡스를 시도한다면 무엇부터 끊을 것인가</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="47" data-category="health"><span class="question-text">스스로를 더 친절하게 대하기 위해 오늘 할 말 한마디는</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="48" data-category="health"><span class="question-text">하루 에너지 곡선에서 생산성이 높은 시간대는 언제인가</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="49" data-category="health"><span class="question-text">과로를 멈추기 위한 경계 문장을 만들어본다면</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="50" data-category="health"><span class="question-text">몸과 마음의 회복을 돕는 ‘느린 시간’은 어떻게 만들 수 있나</span></li>
+
+        <!-- habits (51–60) -->
+        <li class="question-item py-1.5 border-b last:border-none" data-id="51" data-category="habits"><span class="question-text">매일 10분 투자로 삶이 달라질 습관은 무엇인가</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="52" data-category="habits"><span class="question-text">작심삼일을 막기 위한 나만의 장치(트리거)는</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="53" data-category="habits"><span class="question-text">없애고 싶은 습관 하나와 대체할 행동은 무엇인가</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="54" data-category="habits"><span class="question-text">루틴이 흐트러졌을 때 재시작을 쉽게 만드는 방법은</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="55" data-category="habits"><span class="question-text">습관 형성에서 ‘보상’을 어떻게 설계하고 있나</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="56" data-category="habits"><span class="question-text">나의 주간 리뷰 템플릿에 꼭 들어가야 할 질문은</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="57" data-category="habits"><span class="question-text">생산성을 높인 도구/앱이 실제로 바꾼 행동은 무엇인가</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="58" data-category="habits"><span class="question-text">내가 꾸준함을 유지했던 경험에서 배운 점은</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="59" data-category="habits"><span class="question-text">하루 시작 의식을 한 문장으로 만들면</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="60" data-category="habits"><span class="question-text">퇴근 후 나를 회복시키는 미니 루틴은 무엇인가</span></li>
+
+        <!-- growth (61–70) -->
+        <li class="question-item py-1.5 border-b last:border-none" data-id="61" data-category="growth"><span class="question-text">최근 배운 것 중 나를 가장 확장시킨 통찰은 무엇이었나</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="62" data-category="growth"><span class="question-text">두려움 때문에 미룬 일에 작은 실험을 한다면 무엇부터</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="63" data-category="growth"><span class="question-text">피드백을 체계적으로 학습으로 바꾸는 절차는</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="64" data-category="growth"><span class="question-text">내가 바꾸고 싶은 믿음 한 가지와 이를 검증할 방법은</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="65" data-category="growth"><span class="question-text">멘토/롤모델에게 지금 묻고 싶은 질문은 무엇인가</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="66" data-category="growth"><span class="question-text">실험 정신을 발휘해볼 수 있는 일주일 프로젝트는</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="67" data-category="growth"><span class="question-text">지금 포기하지 않기 위해 필요한 자원은 무엇인가</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="68" data-category="growth"><span class="question-text">과거의 내가 현재의 나에게 해줄 조언은 무엇일까</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="69" data-category="growth"><span class="question-text">성장을 가속하는 환경(사람·장소·리듬)을 어떻게 만들 수 있나</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="70" data-category="growth"><span class="question-text">배움의 속도를 떨어뜨리는 방해요소를 줄이는 방법은</span></li>
+
+        <!-- values (71–80) -->
+        <li class="question-item py-1.5 border-b last:border-none" data-id="71" data-category="values"><span class="question-text">나의 최우선 가치 세 가지는 무엇이며, 일정에 어떻게 반영되고 있나</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="72" data-category="values"><span class="question-text">돈과 시간 사이에서 선택해야 할 때 나는 어떤 기준을 따르나</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="73" data-category="values"><span class="question-text">양심에 어긋난다고 느낀 순간은 언제였고, 어떻게 대응했나</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="74" data-category="values"><span class="question-text">내가 지키고 싶은 비양도 원칙(non‑negotiables)은 무엇인가</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="75" data-category="values"><span class="question-text">가치 충돌이 일어났을 때 우선순위를 정하는 나만의 방식은</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="76" data-category="values"><span class="question-text">시간을 어디에 쓰는지가 내 가치와 얼마나 일치하나</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="77" data-category="values"><span class="question-text">‘옳음’보다 ‘선함’을 선택했던 경험이 있다면</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="78" data-category="values"><span class="question-text">기부/봉사/나눔을 나의 삶에 어떤 형태로 편입할 수 있나</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="79" data-category="values"><span class="question-text">결정의 기준을 단순화하는 질문 한 가지를 만든다면</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="80" data-category="values"><span class="question-text">나의 롱텀 목표와 단기 선택이 충돌할 때 나는 어떻게 조정하나</span></li>
+
+        <!-- past (81–85) -->
+        <li class="question-item py-1.5 border-b last:border-none" data-id="81" data-category="past"><span class="question-text">내 인생의 전환점이 된 사건은 무엇이었나</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="82" data-category="past"><span class="question-text">과거의 실수에서 얻은 가장 값진 교훈은 무엇인가</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="83" data-category="past"><span class="question-text">오랫동안 붙잡고 있던 후회를 내려놓기 위해 필요한 것은</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="84" data-category="past"><span class="question-text">나를 키워준 환경/사람에게 지금 전하고 싶은 말은</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="85" data-category="past"><span class="question-text">내가 과거로 돌아가 바꾸고 싶지 않은 한 가지는</span></li>
+
+        <!-- future (86–90) -->
+        <li class="question-item py-1.5 border-b last:border-none" data-id="86" data-category="future"><span class="question-text">앞으로 1년, 꼭 이루고 싶은 목표 하나와 첫걸음은</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="87" data-category="future"><span class="question-text">5년 후의 나는 어떤 하루를 보내고 있을까</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="88" data-category="future"><span class="question-text">미래의 리스크를 줄이기 위해 지금 분산할 수 있는 선택은</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="89" data-category="future"><span class="question-text">가슴 뛰는 도전을 시작하기 위해 필요한 최소 조건은</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="90" data-category="future"><span class="question-text">노년의 내가 고마워할 오늘의 결정은 무엇일까</span></li>
+
+        <!-- daily (91–100) -->
+        <li class="question-item py-1.5 border-b last:border-none" data-id="91" data-category="daily"><span class="question-text">오늘의 하이라이트 한 가지와 그 이유는</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="92" data-category="daily"><span class="question-text">오늘 배운 것 한 가지를 내일 어디에 적용할 수 있나</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="93" data-category="daily"><span class="question-text">오늘 고마웠던 사람/상황을 구체적으로 기록한다면</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="94" data-category="daily"><span class="question-text">오늘 놓친 기회를 다음엔 어떻게 잡을 수 있을까</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="95" data-category="daily"><span class="question-text">내일을 더 가볍게 만들기 위해 지금 끝낼 수 있는 일은</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="96" data-category="daily"><span class="question-text">내 컨디션을 10점 만점으로 매기면 몇 점이고, 이유는</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="97" data-category="daily"><span class="question-text">오늘의 실수에서 개선할 수 있는 1cm 변화는 무엇인가</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="98" data-category="daily"><span class="question-text">마무리 루틴(정리·스트레칭·감사)에서 빼먹은 것은</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="99" data-category="daily"><span class="question-text">내일의 최우선 한 가지를 지금 선언한다면</span></li>
+        <li class="question-item py-1.5 border-b last:border-none" data-id="100" data-category="daily"><span class="question-text">오늘 나를 웃게 한 사소한 장면은 무엇이었나</span></li>
+
+
+      </ol>
+    </section>
+
+    <!-- Pagination (bottom) -->
+    <section id="pagination" class="mt-6 flex justify-center items-center gap-2">
+      <button id="btn-prev" class="px-3 py-2 rounded-xl border bg-white text-sm hover:bg-neutral-100">이전</button>
+      <span id="page-indicator" class="text-sm text-neutral-600">1 / 1</span>
+      <button id="btn-next" class="px-3 py-2 rounded-xl border bg-white text-sm hover:bg-neutral-100">다음</button>
+    </section>
+  </main>
+
+ <script>
+  (function(){
+    const $filter = document.getElementById('filter-category');
+    const $items = Array.from(document.querySelectorAll('#question-list .question-item'));
+    const $limitSelect = document.getElementById('limit-select');
+    const $prev = document.getElementById('btn-prev');
+    const $next = document.getElementById('btn-next');
+    const $pageInfo = document.getElementById('page-indicator');
+
+    let limit = 10; // 기본 10줄 보기
+    let page = 1;
+
+    // ✅ 카테고리 뱃지 자동 추가 (앞쪽만)
+    $items.forEach(li => {
+      const cat = li.dataset.category;
+      const textNode = li.querySelector('.question-text');
+      if (!textNode.previousElementSibling || !textNode.previousElementSibling.classList?.contains('badge')) {
+        const badge = document.createElement('span');
+        badge.className = 'badge';
+        badge.textContent = `#${cat}`;
+        textNode.before(badge);
+      }
+    });
+
+    function getVisibleByCategory(){
+      const cat = $filter.value;
+      return $items.filter(li => !cat || li.dataset.category === cat);
+    }
+
+    function apply(){
+      const visible = getVisibleByCategory();
+      const total = visible.length;
+      const pageSize = limit === 'all' ? total : parseInt(limit);
+      const totalPages = Math.max(1, Math.ceil(total / pageSize));
+
+      if(page > totalPages) page = totalPages;
+      if(page < 1) page = 1;
+
+      $items.forEach(li => li.classList.add('hidden'));
+      const start = (page - 1) * pageSize;
+      const end = start + pageSize;
+      visible.forEach((li, idx) => {
+        if(limit === 'all' || (idx >= start && idx < end)) li.classList.remove('hidden');
+      });
+
+      if(limit === 'all'){
+        $pageInfo.textContent = '전체 보기';
+        $prev.disabled = $next.disabled = true;
+        $prev.classList.add('opacity-50');
+        $next.classList.add('opacity-50');
+      } else {
+        $pageInfo.textContent = `${page} / ${totalPages}`;
+        $prev.disabled = page <= 1;
+        $next.disabled = page >= totalPages;
+        $prev.classList.toggle('opacity-50', page <= 1);
+        $next.classList.toggle('opacity-50', page >= totalPages);
+      }
+    }
+
+    $filter.addEventListener('change', () => { page = 1; apply(); });
+    $limitSelect.addEventListener('change', (e) => { limit = e.target.value; page = 1; apply(); });
+    $prev.addEventListener('click', () => { if(page > 1){ page--; apply(); } });
+    $next.addEventListener('click', () => { page++; apply(); });
+
+    apply();
+  })();
+</script>
+
+</body>
+</html>
